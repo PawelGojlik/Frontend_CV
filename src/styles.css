@@ -1,0 +1,76 @@
+body {
+    width: 800px;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div.container {
+    display: flex;
+    flex-direction: row;
+    grid-gap: 0px;
+}
+
+div.smallColumn {
+    flex: 30%;
+    background-color: lightgray;
+    padding-top: 20px;
+    border-left: 30px;
+    border-left-style: solid;
+    border-color: darkslategrey;
+}
+
+div.largeColumn {
+    flex: 68%;
+    background-color: #f1f1f1;
+    padding-top: 15px;
+    padding-bottom: 30px;
+}
+
+p.contactHeader {    
+    font-size: 16px;
+    text-align: left;
+    padding-top: 20px;
+    padding-left: 20px; 
+}
+
+p.contactSection {    
+    font-size: 14px;
+    text-align: left;
+    padding-left: 20px;   
+    margin-block-start: 15px;
+    margin-block-end: 7px; 
+}
+
+h1.title{    
+    
+    font-size: 26px;
+    text-align: center;  
+}
+
+h2.sectionHeader {    
+    font-size: 20px;
+    text-align: left;
+    text-decoration: underline; 
+    padding-left: 20px; 
+}
+
+li {
+    font-size: 12px;
+    margin: 10px 0;
+}
+
+p {
+    font-size: 12px;
+    text-align: left;
+    padding-left: 20px; 
+    margin-block-start: 7px;
+    margin-block-end: 7px;
+}
+
+img {
+    display: block;
+    margin: auto;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 80%;
+}
